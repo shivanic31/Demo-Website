@@ -1,0 +1,493 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    cursor: pointer;
+}
+
+.right-nav {
+    width: 40%;
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li {
+    list-style: none;
+    padding: 16px 10px;
+    margin-right: 2px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .banner-text {
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    right: 550px;
+    left: 30px;
+    align-items: left;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.banner {
+    position: relative;
+    height: 400px;
+    float: left;
+    width: 100%;
+}
+
+.banner-text h4 {
+    margin: 0;
+    font-family: 'Rokkitt', serif;
+    font-size: 30px;
+}
+
+.banner-text p {
+    margin: 0;
+    font-size: 27px;
+    font-family: 'Raleway', sans-serif;
+}
+.banner-text div{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(12, 174, 166);
+    font-size: 13px;
+    padding: 18px 22px;
+    height: 60px;
+    margin-left: 2px;
+    width: 60%;
+    border: none;
+    border-radius: 8px;
+}
+
+.fo-btn {
+    color: white;
+    background-color: rgb(12, 174, 166);
+    font-size: 13px;
+    padding: 7px 7px;
+    height: 30px;
+    margin-left: 2px;
+    width: 60%;
+    border: none;
+    border-radius: 8px;
+}
+
+.mouse {
+    width: 25%;
+}
+
+.mouse img {
+    width: 25%;
+    margin-left: 330%;
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.middle {
+    width: 75%;
+    margin-left: 10%;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.middle h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+
+.middle p {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.threeHalf {
+    display: flex;
+    flex-direction: row;
+
+}
+.threeHalf h3{
+    font-size: 15px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.threeHalf p{
+    font-family: 'Roboto', sans-serif;
+
+}
+.threeHal h4{
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+.threeHal {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 110%;
+    justify-content: center;
+
+}
+
+.fir {
+    width: 70%;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+
+.sec {
+    width: 70%;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+
+.thi {
+    width: 70%;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+
+.first {
+    width: 30%;
+    margin: 15px 20px;
+    padding: 0px 20px;
+}
+
+.second {
+    width: 30%;
+    margin: 15px 20px;
+    padding: 0px 20px;
+}
+
+.third {
+    width: 30%;
+    margin: 15px 20px;
+    padding: 0px 20px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 60%;
+    margin: auto;
+
+}
+
+.firstSection {
+    height: 70vh;
+    background-color: rgb(246, 247, 248);
+}
+
+.firstHalf {
+    width: 110%;
+
+}
+
+.secondHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.secondHalf h3{
+    font-size: 35px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.secondHalf h6{
+    font-size: 20px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.secondHalf p{
+    font-size: 11px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstHalf img {
+
+    width: 70%;
+    display: block;
+    margin-top: 60px;
+}
+
+.text-big {
+    font-size: 40px;
+}
+
+.text-med {
+    font-size: 21px;
+}
+
+.text-small {
+    font-size: 13px;
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.sectionTag {
+    padding: 16px 0;
+}
+
+
+.contact {
+    background-color: rgb(12, 174, 166);
+    width: 100%;
+    height: 450px;
+    display: block;
+    max-block-size: 100%;
+
+
+}
+.contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.contact p {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+input {
+    border-radius: 6px;
+    border-color: white;
+    align-items: left;
+    margin: 15px;
+    width: 220px;
+    padding: 10px;
+    background-color: rgb(12, 174, 166);
+
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.mes {
+    height: 100px;
+    width: 770px;
+}
+
+.Message {
+   border-radius: 5px;
+    color:  rgb(12, 174, 166);
+    border-color: white;
+    width: 170px;
+    height: 35px;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    text-decoration: solid black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: solid;
+    font-size: 16px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+.one img{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid lightslategray
+}
+.two img{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid lightslategray
+}
+.three img{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid lightslategray
+}
+.four img{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid lightslategray
+}
+.one {
+    margin: 35px 1px;
+    padding: 0px 10px;
+}
+
+.two {
+    margin: 35px 1px;
+    padding: 0px 10px;
+}
+
+.three {
+    margin: 35px 1px;
+    padding: 0px 10px;
+}
+
+.four {
+    margin: 35px 1px;
+    padding: 0px 10px;
+}
+
+.first-Section {
+    height: 90vh;
+    
+}
+
+.first-Half {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-Half h3{
+    font-size: 35px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.first-Half h6{
+    font-size: 20px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.first-Half p{
+    font-size: 11px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-Half {
+    width: 40%;
+}
+
+.second-Half img {
+    width: 170%;
+    padding: 100px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+
+}
+
+.fo-input {
+    border-radius: 5px;
+    align-items: left;
+    padding: 4px;
+    margin: 1px;
+    background-color: rgb(203, 196, 196);
+}
